@@ -5,7 +5,7 @@ steps:
 - name: build
   image: esplinux/bootstrap
   environment:
-    VERSION: "bootstrap"
+    VERSION: "0.01"
     ESPBUILD_VERSION: "0.01"
     GHR_VERSION: "0.12.1"
     GITHUB_TOKEN:
